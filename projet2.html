@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title> my first web site  </title>
+</head>
+
+<body>
+    <h1> Bienvenue sur ma superbe page web!
+    </h1>
+   
+    <h2> veuillez remplir ce formulaire s'il vous plait</h2>
+    
+<nav>
+    <ul>
+        <li><a href="#">Accueil</a></li>
+        <li><a href="#">À propos</a></li>
+        <li><a href="#">Travail</a></li>
+        <li><a href="#">CV</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+</nav>
+ 
+    <section id="a-propos">
+        <h2>À propos</h2>
+        <form>
+            <label for="nom">Nom :</label>
+            <input type="text" id="nom" name="nom"><br><br>
+
+            <label for="bio">Bio :</label>
+            <textarea id="bio" name="bio" rows="3" cols="40"></textarea><br><br>
+
+            <label for="image">Image :</label>
+            <input type="file" id="image" name="image">
+             
+        </form>
+    </section>
+
+    <section id="travail">
+        <h2>Travail</h2>
+        <form>
+            <label for="experience">Expérience :</label>
+            <select id="experience" name="experience">
+                <option value="debutant">debutant</option>
+                <option value="intermediaire">Intermédiaire</option>
+                <option value="expert">expert</option>
+            </select><br><br>
+
+            <label for="competences">Compétences :</label>
+            <input type="text" id="competences" name="competences"><br><br>
+
+            <label for="projets">Projets :</label>
+            <input type="text" id="projets" name="projets"><br><br>
+        </form>
+    </section>
+
+    <section id="cv">
+        <h2>CV</h2>
+        <form>
+            <label for="cv-pdf">Télécharger le CV (PDF) :</label>
+            <input type="file" id="cv-pdf" name="cv-pdf"><br><br>
+
+            <label for="cv-lien">Lien vers le CV (en ligne) :</label>
+            <input type="url" id="cv-lien" name="cv-lien"><br><br>
+        </form>
+    </section>
+
+    <section id="contact">
+        <h2> Contact</h2>
+        <form>
+            <label for="email">Adresse e-mail :</label>
+            <input type="email" id="email" name="email"><br><br>
+
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+
+            <input type="submit" value="Envoyer">
+        </form>
+    </section>
+</body>
+
+ <footer> 
+  <p> 
+   &copy; 2025 mon entreprise Tous droits réservés.</p>
+ <ul> 
+    <li><a href="#">Accueil</a></li> 
+    <li><a href="#">À propos</a></li> 
+    <li><a href="#">Contact</a></li>
+ </ul>
+     <p> Contact : <a 
+    href="mail to:khardiataba163@gmail.com">khardiataba163@gmail.com</a>
+  </p>
+ </footer>
+ 
+     <video controls>
+  <source src="maVideo.mp4" type="video/mp4" />
+  <source src="maVideo.webm" type="video/webm" />
+  <p>
+    Votre navigateur ne prend pas en charge les vidéos HTML5. Voici
+    <a href="myVideo.mp4">un lien pour télécharger la vidéo</a>.
+  </p>
+</video>
+  
+</html>
